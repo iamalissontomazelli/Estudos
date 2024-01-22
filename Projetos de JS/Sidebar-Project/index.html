@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Icon style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>SideBar with dropdown | Improv3 Channel</title>
+</head>
+
+<body>
+    <!-- menu button -->
+    <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+    <div class="side-bar">
+        <!-- header section -->
+        <header>
+            <div class="close-btn">
+                <i class="fas fa-times"></i>
+            </div>
+            <!-- image -->
+            <img src="./img/image.jpeg" alt="">
+            <!-- Logo -->
+            <h1>Logo Here</h1>
+        </header>
+
+
+
+
+        <!-- Menu items -->
+        <div class="menu">
+            <div class="item"><a href=""><i class="fas fa-desktop"></i>Dashboard</a></div>
+            <div class="item"><a href=""><i class="fas fa-table"></i>Table
+
+                    <!-- Dropdown -->
+                    <!-- Dropdown arrow -->
+
+                    <i class="fas fa-angle-right dropdown"></i>
+                </a>
+                <div class="sub-menu">
+                    <a href="" class="sub-item">Sub-item 01</a>
+                    <a href="" class="sub-item">Sub-item 02</a>
+                    <a href="" class="sub-item">Sub-item 03</a>
+                </div>
+            </div>
+            <div class="item"><a href=""><i class="fas fa-th"></i>Forms</a></div>
+            <div class="item"><a href=""><i class="fas fa-cog"></i>Settings
+                    <!-- Dropdown 02-->
+                    <!-- Dropdown arrow -->
+
+                    <i class="fas fa-angle-right dropdown"></i>
+                </a>
+                <div class="sub-menu">
+                    <a href="" class="sub-item">Sub-item 01</a>
+                    <a href="" class="sub-item">Sub-item 02</a>
+
+                </div>
+            </div>
+            <div class="item"><a href=""><i class="fas fa-info-circle"></i>About</a></div>
+        </div>
+    </div>
+
+
+    <!-- Jquery CDN link -->
+
+    <!-- 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.menu-btn').click(function () {
+                $('.side-bar').addClass('active');
+                $('.menu-btn').css("visibility", "hidden");
+            });
+            $('.close-btn').click(function () {
+                $('.side-bar').removeClass('active');
+                $('.menu-btn').css("visibility", "visible");
+            });
+        });
+    </script> -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
