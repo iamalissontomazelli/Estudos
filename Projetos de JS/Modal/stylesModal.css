@@ -1,0 +1,39 @@
+dialog::backdrop {
+  background-color: rgb(0 0 0 / 0.5);
+}
+dialog {
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem rgb(0 0 0 / 0.3);
+  width: 80%;
+  box-shadow: 10px 10px 5px rgb(1, 40, 53);
+}
+button {
+  background-color: #5555;
+  width: 10%;
+  height: 10%;
+  padding: 15px 32px;
+  border: none;
+  text-decoration: none;
+  border-color: black;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.4s ease-in;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-decoration: bold;
+}
+button:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+.h2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  text-align: center;
+}
